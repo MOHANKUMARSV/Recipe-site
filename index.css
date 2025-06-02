@@ -1,0 +1,252 @@
+* {
+  padding: 0%;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 5rem 20rem;
+  background-color: hsl(30, 54%, 90%);
+  font-family: Outfit, sans-serif;
+}
+
+.Recipe-card {
+  background-color: hsl(0, 0%, 100%);
+  padding: 2rem;
+  border-radius: 1rem;
+  font-weight: 400px;
+  color: hsl(30, 10%, 34%);
+}
+
+/* image style */
+#image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-family: Young Serif, serif;
+  font-weight: 800;
+  color: hsl(24, 5%, 18%);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-family: Young Serif, serif;
+  font-weight: 400;
+  color: hsl(14, 45%, 36%);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 16px;
+}
+#sectionZero {
+  margin-bottom: 2rem;
+}
+
+/* preparation time */
+#sectionOne h4 {
+  font-weight: 700;
+  color: hsl(332, 51%, 32%);
+  margin-top: 1rem;
+}
+
+#sectionOne {
+  background-color: hsl(330, 100%, 98%);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+#sectionOne ul {
+  padding: 1rem;
+}
+
+#sectionOne ul li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+/* ingredients section */
+#sectionTwo ul {
+  margin-left: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+#sectionTwo ul li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+/* Bullet Color Change */
+ul li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+/* Instruction section */
+#sectionThree ul {
+  margin-left: 1.3rem;
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+
+#sectionThree ul li {
+  padding-bottom: 10px;
+  padding-left: 15px;
+}
+
+/* Nutrition Section */
+.nutrition-table {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.nutrition-table td {
+  padding: 10px;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.nutrition-table td:last-child {
+  color: hsl(14, 45%, 36%);
+}
+
+@media (min-width: 1440px) {
+  body {
+    margin: 5rem 20rem;
+  }
+
+  .Recipe-card {
+    padding: 2rem;
+  }
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 16px;
+  }
+  #sectionZero {
+    margin-bottom: 2rem;
+  }
+
+  /* preparation time */
+  #sectionOne h4 {
+    margin-top: 1rem;
+  }
+
+  #sectionOne {
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+
+  #sectionOne ul {
+    padding: 1rem;
+  }
+
+  #sectionOne ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  /* ingredients section */
+  #sectionTwo ul {
+    margin-left: 1.1rem;
+    margin-bottom: 2rem;
+  }
+
+  #sectionTwo ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  /* Instruction section */
+  #sectionThree ul {
+    margin-left: 1.3rem;
+    font-size: 14px;
+    margin-bottom: 1rem;
+  }
+
+  #sectionThree ul li {
+    padding-bottom: 10px;
+    padding-left: 15px;
+  }
+
+  /* Nutrition Section */
+  .nutrition-table {
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+
+  .nutrition-table td {
+    padding: 10px;
+  }
+}
+
+/* Mobile screen Responsive */
+@media (max-width: 375px) 
+{
+  body {
+    margin: 0;
+  }
+
+  .Recipe-card {
+    padding: 0;
+    border-radius: 0;
+  }
+
+  /* image style */
+  #image {
+    width: 100%;
+    border-radius: 0;
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  #sectionOne,
+  #sectionTwo,
+  #sectionThree,
+  #sectionFour {
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+  }
+
+  #sectionZero h1,
+  #sectionZero p {
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+  }
+
+  #sectionZero p {
+    font-size: 17px;
+  }
+
+  /* Nutrition Section */
+  .nutrition-table {
+    margin-left: 5px;
+  }
+}
