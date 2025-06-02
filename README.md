@@ -11,9 +11,16 @@ This is my solution for the [Recipe Page Challenge](https://www.frontendmentor.i
 - [Continued Development](#continued-development)
 - [Author](#author)
 
-## Overview
+## 🔍 Overview
 
-A responsive recipe page built using HTML and CSS. The page layout adapts nicely between desktop and mobile screens.
+Here is a preview of the recipe page across different devices:
+
+### 🖥️ Desktop View
+![Desktop View](./assets/Desktop%20overview.png)
+
+### 📱 Mobile View
+![Mobile View](./assets/Mobile%20Overview.png)
+
 
 
 ## Links
